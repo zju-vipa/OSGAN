@@ -1,0 +1,33 @@
+method: dcgan_gn
+
+gpu_id: 3
+
+dataset: mnist
+data_root: data
+image_size: 64
+batch_size: 128
+
+zdim: 100
+num_channel: 1
+
+num_epoch: 20
+
+
+optimizer_g:
+  type: adam
+  args:
+    lr: 2e-4
+
+    betas:
+      - 0.5
+      - 0.999
+
+optimizer_d:
+  type: adam
+  args:
+    lr: 5e-5
+    betas:
+      - 0.5
+      - 0.999
+
+
