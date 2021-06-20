@@ -4,6 +4,8 @@
 
 In this work, we investigate a general training scheme that enables training GANs efficiently in only one stage. Based on the adversarial losses of the generator and discriminator, we categorize GANs into two classes, Symmetric GANs and Asymmetric GANs, and introduce a novel gradient decomposition method to unify the two, allowing us to train both classes in one stage and hence alleviate the training effort. We also computationally analyze the efficiency of the proposed method, and empirically demonstrate that, the proposed method yields a solid 1.5× acceleration across various datasets and network architectures. 
 
+[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Shen_Training_Generative_Adversarial_Networks_in_One_Stage_CVPR_2021_paper.pdf), [Supplemental Material](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Shen_Training_Generative_Adversarial_CVPR_2021_supplemental.pdf), [Arxiv](http://arxiv.org/abs/2103.00430)
+
 
 
 ![motivation](images/motivation.png)
