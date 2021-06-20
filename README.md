@@ -31,7 +31,7 @@ Use `MNIST` class in `torchvision` to download and process MNIST and put it in `
 
 Download CelebA from `http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html`.
 
-Put aligned images of CelebA in `./data/img_align_celeba` and run
+Put aligned images of CelebA in `./data/img_align_celeba/` and run
 
 ```sh
 python build_dataset.py
