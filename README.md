@@ -48,7 +48,7 @@ Select training dataset by editing the corresponding python scripts as follows a
 python train_dcgan_symmetric_two_stage.py
 
 # ----------- Run Symmetric DCGAN (One Stage) -----------
-train_dcgan_symmetric_one_stage.py
+python train_dcgan_symmetric_one_stage.py
 
 # ----------- Run Asymmetric DCGAN (Two Stage) -----------
 python train_dcgan_asymmetric_two_stage.py
